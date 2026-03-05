@@ -26,3 +26,20 @@ section {
     margin-bottom: 10px;
     border-radius: 5px;
 }
+
+/* Project link button */
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #0078D7;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    background: #005fa3;
+}
