@@ -20,26 +20,39 @@ section {
     border-radius: 8px;
 }
 
+/* Project card styling */
 .project {
     border: 1px solid #ddd;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
 }
 
 /* Project link button */
-
 .project-link {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 12px;
     padding: 10px 20px;
     background: #0078D7;
     color: white;
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
+    transition: background 0.2s ease;
 }
 
 .project-link:hover {
     background: #005fa3;
+}
+
+/* Highlight command words */
+.command {
+    color: #FFFF00;
+    font-weight: bold;
 }
