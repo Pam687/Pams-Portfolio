@@ -53,6 +53,6 @@ section {
 
 /* Highlight command words */
 .command {
-    color: #FFFF00;
+    color: #008000; /* dark green for better visibility on white */
     font-weight: bold;
 }
